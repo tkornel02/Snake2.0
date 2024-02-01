@@ -7,7 +7,8 @@ Welcome to the documentation for the Snake Game project. This classic Snake Game
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Game Components](#game-components)
+2. [Usage](#usage)
+3. [Game Components](#game-components)
    - [Fruits](#fruits)
       - [AmmoFruit.java](#ammofruitjava)
       - [Apple.java](#applejava)
@@ -42,6 +43,22 @@ Welcome to the documentation for the Snake Game project. This classic Snake Game
 ## Introduction
 
 The Snake Game is a classic arcade game with added features to make it more challenging and exciting. Players navigate a snake through the game arena, collecting fruits, avoiding obstacles, and shooting zombie snakes with ammunition.
+
+## Usage 
+#### Clone the repo, then go into its directory
+```bash
+git clone https://github.com/tkornel02/Snake2.0.git
+cd Snake2.0
+cd Snake
+```
+#### Compile main class with javac into "out" folder, with specified classpath
+```bash
+javac -cp .\src src\Game\SnakeGame.java -d ./out
+```
+#### Run program with specified classpath
+```bash
+java -cp ./out Game/SnakeGame
+```
 
 ## Game Components
 
